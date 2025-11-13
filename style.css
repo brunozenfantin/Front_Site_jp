@@ -1,0 +1,166 @@
+#topo{
+    width: 80px;
+    height:100vh;
+    background-color: rgb(43, 44, 63);
+    float :left;
+    
+}
+
+#texto{
+    width: auto;
+    
+}
+
+.textomaria {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #333;
+    margin-top: 10%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.imagem_topo{
+    width: 60px;
+    margin: 10%;
+}
+
+#perfil{
+    width: 80%;
+    display: inline-block;
+    margin-top: auto;
+}
+
+.imagem_perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5% 0% 0% 54%;
+    border: 4px solid blueviolet;
+    
+    
+}
+
+
+#content{
+    width: 80%;
+    display: center;
+}
+
+
+
+body{
+    font-family: Verdana, sans-serif;
+    background-color: rgb(249, 250, 251);
+    width: 100%;
+}
+
+#perfil p {
+    font-size: 2em ;
+    margin: 5% 0 0 38%;
+    position: absolute ;
+}
+
+#perfil .nome {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 0 35%;
+    
+
+}
+
+
+#perfil .email{
+    
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: rgb(37, 37, 37);
+    margin: 40px 0 0 38%;
+    
+}
+
+.imagem01{
+    display: inline-block;
+    width: 30%;
+}
+
+
+
+.imagem02{
+    display: inline-block;
+    width: 30%;
+}
+
+.imagem_botao{
+    width: 30px;
+    margin: 70px 0 0 52%;
+    
+}
+
+
+.imagemlivro{
+    width: 60px;
+    margin: 10%;
+    filter: invert(100%);
+    
+}
+
+.imagemcasa{
+    width: 60px;
+    margin: 10%;
+    filter: invert(100%);
+    border-bottom: 0.2em solid black;
+}
+
+.imagem_topo:hover{
+    width: 80%;
+}
+
+.imagemcasa:hover{
+    width: 80%;
+    
+}
+
+.imagemlivro:hover{
+    width: 80%;
+    
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+
+ #perfil{
+    width: 20%;
+}
+
+p.textomaria {
+    padding: 30% 0 0 40%;
+}
+
+img.imagem_perfil {
+    margin-left: 80%;   
+    display: flex;    
+    
+}
+
+#perfil .nome {
+    font-size: 1.5em;
+    margin: 0 0 0 20%;
+    display: flex;
+}
+
+
+#perfil .email{
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: rgb(37, 37, 37);
+    margin: 50px 0 0 130px;
+}
+  
+.textomaria {
+    font-size: 1.05em;
+    color: #000000;
+    margin: 0;
+}
+
+}

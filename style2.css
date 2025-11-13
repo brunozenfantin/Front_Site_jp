@@ -1,0 +1,241 @@
+a{
+    color: rgb(29, 25, 25);
+    
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    background-color: rgb(249, 250, 251);
+    
+}
+
+#principal {
+    width: 500px;
+}
+
+#topo{
+    background-color: rgb(43, 44, 63);;
+    width: 300%;
+    height: 70px;
+
+    
+}
+
+#topo a{
+    text-decoration: none;
+}
+
+.imagemcasa{
+    height: 60px;
+    margin:  10px;
+    display: inline-block;
+    filter: invert(100%);
+}
+
+.imagemlivro{
+    height: 60px;
+    margin: 10px;
+    filter:  invert(100%);
+    display: inline-block;
+}
+
+.imagem_topo{
+    height: 60px;
+    margin: 10px ;
+    display: inline-block;
+}
+
+
+.imagemlivro:hover{
+    height: 55px;
+    
+}
+
+.imagemcasa:hover{
+    height: 55px;
+}
+
+.imagem_topo:hover{
+    height: 55px;
+}
+
+.perfil{
+    margin: 25px 25px 0 30px;
+    width: 100px ;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 5%;
+    
+}
+
+#perfil1 {
+    border-right: 2px solid black;
+    height: 100vh;
+    float: center;
+    margin: 10px 0 0 0;
+}
+
+
+#perfil1 .nome {
+    font-size: 1.3em;
+    margin: 10px 0 0 0 ;
+    font-weight: bold;
+    width: 280px;
+    padding: 0px 0 0 60px;
+}
+
+
+#perfil1 .email{
+    margin-left: center;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: rgb(37, 37, 37);
+    width: 280px;
+    margin-top: auto;
+    padding: 0px 0 0 60px;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+
+}
+
+#secundaria {
+    display: flex;
+    width: 450px;
+    float: right;
+    }
+
+
+
+
+
+#primaria ul {
+    list-style: none;
+    padding: 1;
+    margin: 20px 0;
+}
+
+
+#primaria li {
+    margin-bottom: 15px; 
+}
+
+
+#primaria a {
+    display: block;
+    background-color: rgb(52, 53, 82); 
+    color: white;                      
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#primaria a:hover {
+    background-color: rgb(70, 71, 110); 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+#primaria a:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#secundaria {
+    float: left;
+}
+
+
+.aula01{
+    width: 50px;
+}
+
+.pendentes {
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.realizadas{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.lista_perfil{
+    margin: 25px 25px 0 46px;
+    font-size: 1.5em;;
+    display: inline-block   ;
+    color: rgb(255, 255, 255);
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: rgb(52, 53, 82); 
+
+}
+
+.lista_perfil a {
+    color: white;
+    text-decoration: none;
+}
+
+
+   
+
+iframe {
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+
+   
+    #primaria {
+    width: 50%;
+    height: 600px;
+    float: left;
+    display: block;
+} 
+
+   #topo {
+    width: 100%;
+    height: 70px;
+   }
+
+
+    #secundaria {
+    display: flex;
+    width: 450px;
+   
+    }
+
+    #perfil1 {
+    border-right: 2px solid black;
+    width: 50%;
+    height: 600px;
+    float: left;
+    display: block;
+
+}
+
+
+}
